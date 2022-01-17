@@ -1,0 +1,14 @@
+#mv out-16384-512-geqrt.csv cascadelakelu-16384-512-dgeqrt.dat
+#mv out-16384-512-tsmqr.csv cascadelakelu-16384-512-dtsmqr.dat
+#mv out-16384-512-tsqrt.csv cascadelakelu-16384-512-dtsqrt.dat
+#mv out-16384-512-ormqr.csv cascadelakelu-16384-512-dormqr.dat
+
+
+mv out-16384-512-gemm.csv cascadelakelu-16384-512-dgemm.dat
+mv out-16384-512-swptr.csv cascadelakelu-16384-512-dswptr.dat
+mv out-16384-512-laswp.csv cascadelakelu-16384-512-dlaswp.dat
+mv out-16384-512-getrf.csv cascadelakelu-16384-512-dgetrf.dat
+
+#mv out-16384-512-trsm.csv cascadelakelu-16384-512-dtrsm.dat
+#mv out-16384-512-syrk.csv cascadelakelu-16384-512-dsyrk.dat
+#mv out-16384-512-potrf.csv cascadelakelu-16384-512-dpotrf.dat

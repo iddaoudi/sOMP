@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<!DOCTYPE platform SYSTEM "https://simgrid.org/simgrid.dtd">
+<platform version="4.1">
+  <zone id="SOCKET-0" routing="Full">
+      <zone id="NUMA-0" routing="Cluster">
+      <prop id="ncache" value="2"/>
+      <prop id="cachesize" value="27500000"/>
+      <prop id="alpha" value="0"/>
+      <prop id="beta" value="0"/>
+      <router id="router-0"/>
+      
+      <host id="IMC-0" speed="100Gf"/>
+      <link id="link-imc-0" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="IMC-0" up="link-imc-0_UP" down="link-imc-0_DOWN"/>
+      
+      <host id="RAM-0" speed="100Gf"/>
+      <link id="link-ram-0" bandwidth="26GBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="RAM-0" up="link-ram-0_UP" down="link-ram-0_DOWN"/>
+      
+      <host id="CPU-0" speed="100Gf"/>
+      <link id="link-0" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-0" up="link-0_UP" down="link-0_DOWN"/>
+      <host id="CPU-1" speed="100Gf"/>
+      <link id="link-1" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-1" up="link-1_UP" down="link-1_DOWN"/>
+      <host id="CPU-2" speed="100Gf"/>
+      <link id="link-2" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-2" up="link-2_UP" down="link-2_DOWN"/>
+      <host id="CPU-3" speed="100Gf"/>
+      <link id="link-3" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-3" up="link-3_UP" down="link-3_DOWN"/>
+      <host id="CPU-4" speed="100Gf"/>
+      <link id="link-4" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-4" up="link-4_UP" down="link-4_DOWN"/>
+      <host id="CPU-5" speed="100Gf"/>
+      <link id="link-5" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-5" up="link-5_UP" down="link-5_DOWN"/>
+      <host id="CPU-6" speed="100Gf"/>
+      <link id="link-6" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-6" up="link-6_UP" down="link-6_DOWN"/>
+      <host id="CPU-7" speed="100Gf"/>
+      <link id="link-7" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-7" up="link-7_UP" down="link-7_DOWN"/>
+      <host id="CPU-8" speed="100Gf"/>
+      <link id="link-8" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-8" up="link-8_UP" down="link-8_DOWN"/>
+      <host id="CPU-9" speed="100Gf"/>
+      <link id="link-9" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-9" up="link-9_UP" down="link-9_DOWN"/>
+      <host id="CPU-10" speed="100Gf"/>
+      <link id="link-10" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-10" up="link-10_UP" down="link-10_DOWN"/>
+      <host id="CPU-11" speed="100Gf"/>
+      <link id="link-11" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-11" up="link-11_UP" down="link-11_DOWN"/>
+      <host id="CPU-12" speed="100Gf"/>
+      <link id="link-12" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-12" up="link-12_UP" down="link-12_DOWN"/>
+      <host id="CPU-13" speed="100Gf"/>
+      <link id="link-13" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-13" up="link-13_UP" down="link-13_DOWN"/>
+      <host id="CPU-14" speed="100Gf"/>
+      <link id="link-14" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-14" up="link-14_UP" down="link-14_DOWN"/>
+      <host id="CPU-15" speed="100Gf"/>
+      <link id="link-15" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-15" up="link-15_UP" down="link-15_DOWN"/>
+      <host id="CPU-16" speed="100Gf"/>
+      <link id="link-16" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-16" up="link-16_UP" down="link-16_DOWN"/>
+      <host id="CPU-17" speed="100Gf"/>
+      <link id="link-17" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-17" up="link-17_UP" down="link-17_DOWN"/>
+      <host id="CPU-18" speed="100Gf"/>
+      <link id="link-18" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-18" up="link-18_UP" down="link-18_DOWN"/>
+      <host id="CPU-19" speed="100Gf"/>
+      <link id="link-19" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-19" up="link-19_UP" down="link-19_DOWN"/>
+      <backbone id="backbone-0" bandwidth="1.5TBps" latency="102ns"/>
+    </zone>
+    <zone id="NUMA-1" routing="Cluster">
+      <router id="router-1"/>
+      
+      <host id="IMC-1" speed="100Gf"/>
+      <link id="link-imc-1" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="IMC-1" up="link-imc-1_UP" down="link-imc-1_DOWN"/>
+      
+      <host id="RAM-1" speed="100Gf"/>
+      <link id="link-ram-1" bandwidth="26GBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="RAM-1" up="link-ram-1_UP" down="link-ram-1_DOWN"/>
+      
+      <host id="CPU-20" speed="100Gf"/>
+      <link id="link-20" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-20" up="link-20_UP" down="link-20_DOWN"/>
+      <host id="CPU-21" speed="100Gf"/>
+      <link id="link-21" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-21" up="link-21_UP" down="link-21_DOWN"/>
+      <host id="CPU-22" speed="100Gf"/>
+      <link id="link-22" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-22" up="link-22_UP" down="link-22_DOWN"/>
+      <host id="CPU-23" speed="100Gf"/>
+      <link id="link-23" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-23" up="link-23_UP" down="link-23_DOWN"/>
+      <host id="CPU-24" speed="100Gf"/>
+      <link id="link-24" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-24" up="link-24_UP" down="link-24_DOWN"/>
+      <host id="CPU-25" speed="100Gf"/>
+      <link id="link-25" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-25" up="link-25_UP" down="link-25_DOWN"/>
+      <host id="CPU-26" speed="100Gf"/>
+      <link id="link-26" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-26" up="link-26_UP" down="link-26_DOWN"/>
+      <host id="CPU-27" speed="100Gf"/>
+      <link id="link-27" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-27" up="link-27_UP" down="link-27_DOWN"/>
+      <host id="CPU-28" speed="100Gf"/>
+      <link id="link-28" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-28" up="link-28_UP" down="link-28_DOWN"/>
+      <host id="CPU-29" speed="100Gf"/>
+      <link id="link-29" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-29" up="link-29_UP" down="link-29_DOWN"/>
+      <host id="CPU-30" speed="100Gf"/>
+      <link id="link-30" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-30" up="link-30_UP" down="link-30_DOWN"/>
+      <host id="CPU-31" speed="100Gf"/>
+      <link id="link-31" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-31" up="link-31_UP" down="link-31_DOWN"/>
+      <host id="CPU-32" speed="100Gf"/>
+      <link id="link-32" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-32" up="link-32_UP" down="link-32_DOWN"/>
+      <host id="CPU-33" speed="100Gf"/>
+      <link id="link-33" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-33" up="link-33_UP" down="link-33_DOWN"/>
+      <host id="CPU-34" speed="100Gf"/>
+      <link id="link-34" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-34" up="link-34_UP" down="link-34_DOWN"/>
+      <host id="CPU-35" speed="100Gf"/>
+      <link id="link-35" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-35" up="link-35_UP" down="link-35_DOWN"/>
+      <host id="CPU-36" speed="100Gf"/>
+      <link id="link-36" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-36" up="link-36_UP" down="link-36_DOWN"/>
+      <host id="CPU-37" speed="100Gf"/>
+      <link id="link-37" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-37" up="link-37_UP" down="link-37_DOWN"/>
+      <host id="CPU-38" speed="100Gf"/>
+      <link id="link-38" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-38" up="link-38_UP" down="link-38_DOWN"/>
+      <host id="CPU-39" speed="100Gf"/>
+      <link id="link-39" bandwidth="1.5TBps" latency="102ns" sharing_policy="SPLITDUPLEX"/>
+      <host_link id="CPU-39" up="link-39_UP" down="link-39_DOWN"/>
+      <backbone id="backbone-1" bandwidth="1.5TBps" latency="102ns"/>
+    </zone>
+    <link id="link-0-1" bandwidth="26GBps" latency="155ns"/>
+    <zoneRoute src="NUMA-0" dst="NUMA-1" gw_src="router-0" gw_dst="router-1">
+      <link_ctn id="link-0-1"/>
+    </zoneRoute>
+  </zone>
+</platform>
+

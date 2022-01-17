@@ -1,0 +1,7 @@
+mv intellupowersave-16384-512-dgetrf.dat intellupowersave-512-dgetrf.dat
+mv intellupowersave-16384-512-dlaswp.dat intellupowersave-512-dlaswp.dat
+mv intellupowersave-16384-512-dswptr.dat intellupowersave-512-dswptr.dat
+mv intellupowersave-16384-512-dgemm.dat intellupowersave-512-dgemm.dat
+
+
+

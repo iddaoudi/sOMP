@@ -1,0 +1,468 @@
+Name: dplgsy
+JobId: 36
+StartTime: 1601772514191.799316
+EndTime: 1601772514193.322754
+MemoryNode: 0
+Handles: 0x7f8748ff4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 37
+StartTime: 1601772514191.808350
+EndTime: 1601772514194.473389
+MemoryNode: 0
+Handles: 0x7f874adf4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 38
+StartTime: 1601772514193.328857
+EndTime: 1601772514195.642334
+MemoryNode: 0
+Handles: 0x7f87497f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 39
+StartTime: 1601772514194.479248
+EndTime: 1601772514196.474365
+MemoryNode: 0
+Handles: 0x7f874a5f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 40
+StartTime: 1601772514195.646484
+EndTime: 1601772514198.053711
+MemoryNode: 0
+Handles: 0x7f8749ff4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 41
+StartTime: 1601772514196.479004
+EndTime: 1601772514198.155762
+MemoryNode: 0
+Handles: 0x7f8749df4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 42
+StartTime: 1601772514198.057861
+EndTime: 1601772514199.935791
+MemoryNode: 0
+Handles: 0x7f874a7f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 43
+StartTime: 1601772514198.159912
+EndTime: 1601772514199.937256
+MemoryNode: 0
+Handles: 0x7f87495f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 44
+StartTime: 1601772514199.940430
+EndTime: 1601772514201.900146
+MemoryNode: 0
+Handles: 0x7f87491f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 45
+StartTime: 1601772514199.941650
+EndTime: 1601772514201.889648
+MemoryNode: 0
+Handles: 0x7f874abf4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 46
+StartTime: 1601772514201.895752
+EndTime: 1601772514203.232666
+MemoryNode: 0
+Handles: 0x7f874a3f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 47
+StartTime: 1601772514201.904785
+EndTime: 1601772514203.398193
+MemoryNode: 0
+Handles: 0x7f87499f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 48
+StartTime: 1601772514203.237305
+EndTime: 1601772514204.767334
+MemoryNode: 0
+Handles: 0x7f8749bf4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 49
+StartTime: 1601772514203.402344
+EndTime: 1601772514205.488770
+MemoryNode: 0
+Handles: 0x7f874a1f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 50
+StartTime: 1601772514204.771484
+EndTime: 1601772514206.305664
+MemoryNode: 0
+Handles: 0x7f87493f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dplgsy
+JobId: 51
+StartTime: 1601772514205.492920
+EndTime: 1601772514207.670898
+MemoryNode: 0
+Handles: 0x7f874a9f4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dpotrf
+JobId: 52
+StartTime: 1601772514207.712891
+EndTime: 1601772514210.074951
+MemoryNode: 0
+Handles: 0x7f8748ff4000
+Modes: RW
+Sizes:
+MData: 0x7f8748ff4000
+MSize: 2097152
+MMode: RW
+DependsOn:
+
+Name: dtrsm
+JobId: 55
+StartTime: 1601772514210.083008
+EndTime: 1601772514217.220703
+MemoryNode: 0
+Handles: 0x7f874a7f4000 0x7f8748ff4000
+Modes: RW R
+Sizes:
+MData: 0x7f8748ff4000 0x7f874a7f4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 52
+
+Name: dtrsm
+JobId: 53
+StartTime: 1601772514210.083252
+EndTime: 1601772514216.824951
+MemoryNode: 0
+Handles: 0x7f87497f4000 0x7f8748ff4000
+Modes: RW R
+Sizes:
+MData: 0x7f8748ff4000 0x7f87497f4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 52
+
+Name: dsyrk
+JobId: 56
+StartTime: 1601772514216.829834
+EndTime: 1601772514219.253418
+MemoryNode: 0
+Handles: 0x7f87499f4000 0x7f87497f4000
+Modes: RW R
+Sizes:
+MData: 0x7f87497f4000 0x7f87499f4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 53
+
+Name: dgemm
+JobId: 58
+StartTime: 1601772514217.225586
+EndTime: 1601772514221.228027
+MemoryNode: 0
+Handles: 0x7f874a9f4000 0x7f874a7f4000 0x7f87497f4000
+Modes: RW R R
+Sizes:
+MData: 0x7f87497f4000 0x7f874a7f4000 0x7f874a9f4000
+MSize: 2097152 2097152 2097152
+MMode: R R RW
+DependsOn: 55 53
+
+Name: dpotrf
+JobId: 62
+StartTime: 1601772514219.257568
+EndTime: 1601772514221.566895
+MemoryNode: 0
+Handles: 0x7f87499f4000
+Modes: RW
+Sizes:
+MData: 0x7f87499f4000
+MSize: 2097152
+MMode: RW
+DependsOn: 56
+
+Name: dsyrk
+JobId: 61
+StartTime: 1601772514221.231445
+EndTime: 1601772514223.573242
+MemoryNode: 0
+Handles: 0x7f874adf4000 0x7f874a7f4000
+Modes: RW R
+Sizes:
+MData: 0x7f874a7f4000 0x7f874adf4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 55
+
+Name: dtrsm
+JobId: 64
+StartTime: 1601772514221.571533
+EndTime: 1601772514228.350830
+MemoryNode: 0
+Handles: 0x7f874a9f4000 0x7f87499f4000
+Modes: RW R
+Sizes:
+MData: 0x7f87499f4000 0x7f874a9f4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 58 62
+
+Name: dtrsm
+JobId: 54
+StartTime: 1601772514223.577881
+EndTime: 1601772514230.497559
+MemoryNode: 0
+Handles: 0x7f8749ff4000 0x7f8748ff4000
+Modes: RW R
+Sizes:
+MData: 0x7f8748ff4000 0x7f8749ff4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 52
+
+Name: dsyrk
+JobId: 67
+StartTime: 1601772514228.354980
+EndTime: 1601772514230.693115
+MemoryNode: 0
+Handles: 0x7f874adf4000 0x7f874a9f4000
+Modes: RW R
+Sizes:
+MData: 0x7f874a9f4000 0x7f874adf4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 61 64
+
+Name: dgemm
+JobId: 57
+StartTime: 1601772514230.502441
+EndTime: 1601772514234.424072
+MemoryNode: 0
+Handles: 0x7f874a1f4000 0x7f8749ff4000 0x7f87497f4000
+Modes: RW R R
+Sizes:
+MData: 0x7f87497f4000 0x7f8749ff4000 0x7f874a1f4000
+MSize: 2097152 2097152 2097152
+MMode: R R RW
+DependsOn: 54 53
+
+Name: dgemm
+JobId: 60
+StartTime: 1601772514230.697510
+EndTime: 1601772514234.915283
+MemoryNode: 0
+Handles: 0x7f874abf4000 0x7f874a7f4000 0x7f8749ff4000
+Modes: RW R R
+Sizes:
+MData: 0x7f8749ff4000 0x7f874a7f4000 0x7f874abf4000
+MSize: 2097152 2097152 2097152
+MMode: R R RW
+DependsOn: 55 54
+
+Name: dtrsm
+JobId: 63
+StartTime: 1601772514234.427734
+EndTime: 1601772514241.229980
+MemoryNode: 0
+Handles: 0x7f874a1f4000 0x7f87499f4000
+Modes: RW R
+Sizes:
+MData: 0x7f87499f4000 0x7f874a1f4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 57 62
+
+Name: dsyrk
+JobId: 59
+StartTime: 1601772514234.919434
+EndTime: 1601772514237.273193
+MemoryNode: 0
+Handles: 0x7f874a3f4000 0x7f8749ff4000
+Modes: RW R
+Sizes:
+MData: 0x7f8749ff4000 0x7f874a3f4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 54
+
+Name: dgemm
+JobId: 66
+StartTime: 1601772514241.234375
+EndTime: 1601772514245.251709
+MemoryNode: 0
+Handles: 0x7f874abf4000 0x7f874a9f4000 0x7f874a1f4000
+Modes: RW R R
+Sizes:
+MData: 0x7f874a1f4000 0x7f874a9f4000 0x7f874abf4000
+MSize: 2097152 2097152 2097152
+MMode: R R RW
+DependsOn: 60 64 63
+
+Name: dsyrk
+JobId: 65
+StartTime: 1601772514241.236328
+EndTime: 1601772514243.942627
+MemoryNode: 0
+Handles: 0x7f874a3f4000 0x7f874a1f4000
+Modes: RW R
+Sizes:
+MData: 0x7f874a1f4000 0x7f874a3f4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 59 63
+
+Name: dpotrf
+JobId: 68
+StartTime: 1601772514243.946289
+EndTime: 1601772514246.362305
+MemoryNode: 0
+Handles: 0x7f874a3f4000
+Modes: RW
+Sizes:
+MData: 0x7f874a3f4000
+MSize: 2097152
+MMode: RW
+DependsOn: 65
+
+Name: dtrsm
+JobId: 69
+StartTime: 1601772514246.366211
+EndTime: 1601772514253.198975
+MemoryNode: 0
+Handles: 0x7f874abf4000 0x7f874a3f4000
+Modes: RW R
+Sizes:
+MData: 0x7f874a3f4000 0x7f874abf4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 66 68
+
+Name: dsyrk
+JobId: 70
+StartTime: 1601772514253.202637
+EndTime: 1601772514255.979736
+MemoryNode: 0
+Handles: 0x7f874adf4000 0x7f874abf4000
+Modes: RW R
+Sizes:
+MData: 0x7f874abf4000 0x7f874adf4000
+MSize: 2097152 2097152
+MMode: R RW
+DependsOn: 67 69
+
+Name: dpotrf
+JobId: 71
+StartTime: 1601772514255.983398
+EndTime: 1601772514258.401855
+MemoryNode: 0
+Handles: 0x7f874adf4000
+Modes: RW
+Sizes:
+MData: 0x7f874adf4000
+MSize: 2097152
+MMode: RW
+DependsOn: 70
+
